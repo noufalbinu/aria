@@ -1,0 +1,81 @@
+.vertical-carousel-container {
+    display: flex;
+    height: 80vh;
+    flex-direction: row;
+    margin-top: 36px;
+}
+@keyframes scrolltop {
+    0% {
+        transform: translateY(calc(-50%));    
+   }
+    100% {
+        transform: translateY(0);
+   }
+}
+@keyframes scrollbottom {
+    0% {
+        transform: translateY(0);
+   }
+    100% {
+        transform: translateY(-50%);
+   }
+}
+.vertical-carousel {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 246px;
+}
+.carousel-top {
+    padding-right: 10px;
+}
+.carousel-bottom {
+    padding-left: 10px;
+}
+.vertical-carousel::before, .vertical-carousel::after {
+    background: linear-gradient(to bottom, #19323c 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 25px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.vertical-carousel::after {
+    top: 0;
+    transform: rotateZ(0deg);
+}
+.vertical-carousel::before {
+    bottom: 0;
+    transform: rotateZ(180deg);
+}
+.carousel-top {
+    padding-right: 4px;
+}
+.carousel-top .carousel-track {
+    animation: scrolltop 40s linear infinite;
+    display: flex;
+    height: auto;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+}
+.carousel-bottom .carousel-track {
+    animation: scrollbottom 40s linear infinite;
+    display: flex;
+    height: auto;
+    flex-direction: column-reverse;
+    white-space: nowrap;
+    justify-content: flex-start;
+}
+
+.carousel-infinite {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 10px;
+}
+.carousel-infinite img  {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 9px;
+}

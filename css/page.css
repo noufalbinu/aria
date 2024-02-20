@@ -1,0 +1,74 @@
+div#page-container {
+    display: block;
+    float: left;
+    padding: 30px 11%;
+}
+.page_container {
+    color: #fff;
+    padding-top: 66px;
+}
+.page-title {
+	text-align: center;
+	background: #19323c;
+	margin: 0;
+	padding: 86px 10px;
+	color: #ffffff;
+	font-size: 39px;
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 500;
+}
+.horizontal-carousel-container {
+    padding: 67px 0;
+}
+section.section {
+    color: #000;
+    text-align: left;
+}
+
+
+/**************contact form 7 style****************/
+
+.wpcf7-form-control {
+    min-height: 2.75rem;
+    background-color: var(--peace-01);
+    border: 1px #000;
+    border-radius: 0.3rem;
+    margin-bottom: 0;
+    padding: 0.6rem 1rem;
+    width: 100%;
+    height: 38px;
+    color: #333;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    display: block;
+}
+form.wpcf7-form label {
+    color: #2f2f2f;
+    font-weight: 400;
+    font-family: arial;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.field-text {
+    margin-bottom: 0;
+    font-weight: 400;
+}
+textarea.wpcf7-form-control.wpcf7-textarea {
+    height: 165px;
+}
+input.wpcf7-form-control.wpcf7-submit.has-spinner {
+    background: #f2545b;
+    color: #fff;
+    font-weight: bold;
+    width: 30%;
+}
+
+.firstname, .last-name {
+    width: 98%;
+}
+

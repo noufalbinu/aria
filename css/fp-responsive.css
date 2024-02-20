@@ -1,0 +1,280 @@
+@media screen and (max-width: 680px) {
+    .bricks-container-1, 
+    .bricks-container-2, 
+    .brick2-conatainer, 
+    .blocks-left,
+    div#blocks,
+    .icon-box-container div,
+    .feed-box-container,
+    .blog-feed-box-container,
+    .blog-feed-box:nth-child(1),
+    .blog-feed-box:nth-child(2), 
+    .blog-feed-box:nth-child(3), 
+    .blog-feed-box:nth-child(4),
+    .footer-column-three  
+    {
+        width: 100%;
+    }
+    a#box-link {
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 12px;
+    }
+    .brick1 {
+        height: auto;
+    }
+    .brick1-conatainer {
+        padding: 7%;
+    }
+    .brick1 b {
+        width: 100%;
+        color: #fff;
+        font-size: 15px;
+        line-height: 20px;
+        text-shadow: 3px 3px 5px #00000075;
+    }
+    .slider-txt {
+        font-size: 17px !important;
+        line-height: 25px;
+        margin: 29px 7% 0 !important;
+    }
+    .brick3-conatainer {
+    padding: 13px 7% 0;
+    text-align: center;
+}
+    .brick3-conatainer b {
+    font-size: 13px;
+    text-align: center;
+    }
+    .count span {
+        width: 50%;
+        border: none;
+        padding: 8px 15px;
+    }
+    .count span b {
+        font-size: 27px;
+    }
+    .count span:nth-child(2) {
+        border: 1px solid #c3c3c3;
+        border-width: 0 0 0 1px;
+    }
+    .count span:nth-child(3) {
+        border: 1px solid #c3c3c3;
+        border-width: 1px 0px 0 0;
+    }
+    .count span:nth-child(4) {
+        border: 1px solid #c3c3c3;
+        border-width: 1px 0 0 1px;
+    }
+    div#blocks-container {
+        padding: 30px 5%;
+    }
+    .blocks-left {
+    padding: 12px;
+    }
+    div#blocks div {
+        width: 50%;
+    }
+    
+    .brick2-conatainer, .brick3 {
+        float:left;
+    }
+    .bricks-container-2 {
+        padding: 10px 0 !important;
+    }
+    .icon-box {
+        text-align: center;
+    }
+    div#feed {
+        padding: 5px 7%;
+    }
+    .feed-box-container {
+        padding: 0px;
+    }
+    .blog-feed-box:nth-child(2) {
+        margin-top: 15px;
+    }
+    .bio {
+        background-size: 351%;
+
+    }
+    .carousel-content div:nth-child(2) {
+        width: 100% !important;
+        z-index: 11;
+        left: 0px !important;
+    }
+    .carousel-content div:nth-child(3), .carousel-content div:nth-child(4) {
+        z-index: 7;
+    }
+    .carousel-content-2 div:nth-child(3), .carousel-content-2 div:nth-child(4) {
+        z-index: 9;
+    }
+    .teamy_avatar {
+        display: block;
+        max-width: 132%;
+        z-index: 1;
+        width: 100%;
+    }
+    .footer-container, .earth-img {
+        padding: 0 6%;
+        position: relative;
+    }
+    .footer-links {
+        padding-left: 4% !important;
+    }
+    .footer-text-snippet {
+        padding-right: 0 !important
+    }
+    .header {
+        padding: 0 5%;
+    }
+    #nav-icon {
+        top: 6px !important;
+    }
+    .slider {
+        padding: 6%;
+    }
+    .bg-gray:after {
+        width: 86px !important;
+        top: -44px !important;
+        right: 6% !important;
+    }
+    .location-map {
+        background-size: auto 100% !important;
+        padding-bottom: 140px;
+        height: 100%;
+    }
+    .continents-landmark {
+        top: 0 !important;
+    }
+    .continents-landmark svg {
+        transform: rotate(90deg);
+        width: 38%;
+        top: 0;
+    }
+    .landmark-text {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100% !important;
+    }
+    .earth-img span {
+        width: 50% !important;
+    }
+    .earth-img span p {
+        height: 55px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .coming-soon b br {
+        display: none;
+
+    }
+    .earth-img b {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        line-height: 34px !important;
+        padding-top: 16px;
+    }
+    .earth-img:before {
+        display: none;
+        left: 123px;
+        width: 174px;
+        height: 340px;
+        background-size: 100%;
+        bottom: 0px !important;
+        transform: rotate(270deg);
+        top: unset;
+    }
+    .earth-img span:nth-child(2):before {
+        visibility: hidden;
+    }
+    .earth-img span:nth-child(7):after {
+       
+        visibility: hidden;
+    }
+    .menu-container {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        top: 0px !important;
+        padding-top: 96px;
+        z-index: 55;
+    }
+    .menu2, .show-on-mobile {
+        padding: 0 !important;
+    }
+    .slide.slide-2 {
+        width: 100% !important;
+    }
+    .footer-container {
+    background-size: auto 100% !important;
+    }
+    nav.destop-nav ul {
+        display: none !important;
+    }
+
+}
+@media screen and (min-width: 680px) {
+    .menu-container {
+        width: 100%;
+        display: inline;
+        position: relative;
+    }
+    .slide.slide-2 {
+        width: 33% !important;
+    }
+
+    .show-on-mobile {
+        background: #282828;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 555554444;
+        text-align: center;
+            padding: 10px;
+    border-radius: 5px;
+    }
+    .menu2 > ul > li {
+        background: none;
+    }
+    .menu2 > ul > li {
+    border-bottom: 1px solid #5f5e5e;
+    }
+    .menu2 > ul > li > a:before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border-radius: 25px;
+    position: absolute;
+    bottom: -0.32em;
+    left: -5px;
+    }
+
+    nav.destop-nav ul {
+        display: flex;
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+        padding: 18px 20px;
+        list-style-type: none
+    }
+    nav.destop-nav ul li {
+        padding: 18px 20px;
+    }
+    .menu2 .show-on-mobile {
+      margin-top: 50px;
+      height: 400px;
+    }
+
+  
+}

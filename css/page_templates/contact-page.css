@@ -1,0 +1,47 @@
+
+.grid-contact {
+    display: flex;
+    flex-direction: row;
+}
+.contact-info {
+    width: 30%;
+}
+.map-image {
+    border-radius: 8px;
+}
+.contact-address {
+    background: #eaefe7;
+    padding: 37px;
+    border-radius: 7px;
+    margin-top: 16px;
+}
+.contact-form {
+    width: 70%;
+    background: #eaefe7;
+    border-radius: 5px;
+    margin-left: 22px;
+    padding: 73px 50px;
+}
+
+.grid-careers .contact-form {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:700px) {
+    .grid-contact {
+        flex-direction: column !important;
+    }
+    .contact-container {
+        padding: 0 5%;
+    }
+    .contact-info {
+        width: 100%;
+    }
+    .contact-form {
+        width: 100% !important;
+        margin-left: 0px !important;
+        margin-top: 25px;
+        padding: 24px 19px;
+    }
+  
+}
